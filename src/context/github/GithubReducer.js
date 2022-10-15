@@ -13,7 +13,6 @@ const githubReducer = (state, action) => {
         repos: action.payload.repos,
         loading: false
       };
-
     case "SET_LOADING":
       return {
         ...state,
